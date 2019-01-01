@@ -25,6 +25,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
 TARGET_KERNEL_CONFIG := sakura_defconfig
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
